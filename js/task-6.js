@@ -22,7 +22,7 @@ btnCreate.addEventListener('click', () => {
 btnDestroy.addEventListener('click', destroyBoxes);
 
 function createBoxes(amount) {
-  const fragment = document.createDocumentFragment();
+  const fragment = document.createDocumentFragment(); //*нам за використання документ-фрагмента не розповідали
 
   for (let i = 0; i < amount; i += 1) {
     const div = document.createElement('div');
